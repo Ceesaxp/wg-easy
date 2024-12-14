@@ -9,7 +9,7 @@ services:
       - LANG=en
       # ⚠️ Required:
       # Change this to your host's public address
-      - WG_HOST=vpn.ceesaxp.org
+      - WG_HOST=157.230.120.95
 
       # Optional:
       - PASSWORD_HASH=$$2a$12$KexGbY5FFIEFH6h.SszMau6iM8AWgQTr4Lk8J9ShPaUXv8xYEVzA6 # needs double $$
