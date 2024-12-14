@@ -11,8 +11,8 @@ services:
       # Change this to your host's public address
       - WG_HOST=157.230.120.95
 
-      # Optional:
-      - PASSWORD_HASH=$$2a$$12$$KexGbY5FFIEFH6h.SszMau6iM8AWgQTr4Lk8J9ShPaUXv8xYEVzA6 # needs double $$
+      # Optional:  !! needs double *every* $, i.e. '$ab$cd' -> '$$ab$$cd'
+      - PASSWORD_HASH=$$2a$$12$$euRLv2N/xxuQddaFQ3zpM.OB6zvUi5I9btWd8jgoeiPfcUtXXt4W.
       # - PORT=51821
       # - WG_PORT=51820
       # - WG_CONFIG_PORT=92820
