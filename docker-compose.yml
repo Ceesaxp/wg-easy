@@ -49,8 +49,8 @@ services:
     hostname: nginx
     container_name: nginx
     volumes:
-      - ~/.nginx/servers/:/etc/nginx/servers/
-      - ./.nginx/letsencrypt/:/etc/letsencrypt/
+      - .nginx/servers/:/etc/nginx/servers/
+      - .nginx/letsencrypt/:/etc/letsencrypt/
     ports:
       - "80:80/tcp"
       - "443:443/tcp"
